@@ -40,7 +40,7 @@ a {
 }
 .container {
   max-width: 1158px;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -815,4 +815,22 @@ input:checked + .modal-privacy .span-ckeckbox {
 
 .input-check:checked + .modal-privacy .span-ckeckbox .icon-checkbox {
   opacity: 1;
+}
+
+.toast {
+  display: inline-flex;
+  padding: 8px;
+  background-color: #2196f3;
+  color: #fff;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+}
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1158px) {
 }
