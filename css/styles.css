@@ -817,15 +817,6 @@ input:checked + .modal-privacy .span-ckeckbox {
   opacity: 1;
 }
 
-.toast {
-  display: inline-flex;
-  padding: 8px;
-  background-color: #2196f3;
-  color: #fff;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.7);
-  border-radius: 4px;
-}
-
 @media (min-width: 320px) {
 }
 
